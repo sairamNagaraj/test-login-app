@@ -14,20 +14,19 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link id="cssStyle" rel="stylesheet" href="css/styles.css" />
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' http://sairam-nagaraj:3000">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' http://sairam-nagaraj:3000 https://absa2--a2astroh.lightning.force.com">
     
 </head>
 
 <body>
-    
-    
-    <form action="success.html" method="post">
+    <form>
         <h2>Enter your login information</h2>
         <input type="text" name="username" id="username1" placeholder="Enter your username" required><br/><br/>
         <input type="password" name="password" id="password1" placeholder="Enter your password" required><br/><br/>
-        <input type="submit" value="Submit">
+        <h4 id="result"></h4>
+        <input type="button" value="Submit" id="submitButton">
     </form>
-    <script src="JS/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
