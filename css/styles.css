@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to bottom right, #851A03, orange);
+    height: 100vh;
+    font-size: 12px;
+    color: azure;
+}
+
+input[type="text"], input[type="password"]{
+    height: 10vh;
+    width : 20vw;
+    border: none;
+    border-radius: 5px;
+    padding-left: 2vw;
+}
+
+input[type="submit"]{
+    height: 8vh;
+    width : 10vw;
+    background-color: red;
+    color: azure;
+    border-radius: 5px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid white;
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.error{
+    font-size: 12px;
+    color: #640707;
+}
